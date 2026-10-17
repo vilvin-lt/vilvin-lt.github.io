@@ -4,44 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>vilvin.lt</title>
-<meta name="description" content="Vinco asmeninis puslapis. Personal site of Vincas Serva.">
+<meta name="description" content="vilvin.lt – puslapis kuriamas. Website under construction.">
 <style>
   /* Spalvos: šviesi ir tamsi tema pagal įrenginio nustatymą */
-  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e4e1d8; --accent:#1f5f8b; }
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --accent:#1f5f8b; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg:#141413; --fg:#ecebe6; --muted:#a3a19a; --line:#2e2d2a; --accent:#7fb6dd; }
+    :root { --bg:#141413; --fg:#ecebe6; --muted:#a3a19a; --accent:#7fb6dd; }
   }
   * { box-sizing: border-box; }
+  html, body { height:100%; }
   body { margin:0; background:var(--bg); color:var(--fg);
-         font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width:680px; margin:0 auto; padding:56px 16px 40px; }
-  h1 { font-size:2.2rem; margin:0 0 4px; letter-spacing:-0.02em; }
-  .sub { color:var(--muted); margin:0 0 40px; }
-  section { border-top:1px solid var(--line); padding-top:24px; margin-top:24px; }
-  h2 { font-size:1.15rem; margin:0 0 8px; }
-  p { margin:0 0 12px; }
+         font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         display:flex; flex-direction:column; }
+  main { flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center;
+         text-align:center; padding:40px 16px; }
+  h1 { font-size:2.4rem; margin:0 0 12px; letter-spacing:-0.02em; }
+  p { margin:0 0 6px; }
   .en { color:var(--muted); }
-  a { color:var(--accent); }
-  footer { color:var(--muted); font-size:0.9rem; margin-top:48px; }
+  footer { text-align:center; padding:16px; font-size:0.85rem; }
+  footer a { color:var(--muted); }
 </style>
 </head>
 <body>
 <main>
   <h1>vilvin.lt</h1>
-  <p class="sub">Vinco asmeninis puslapis · Personal site of Vincas Serva</p>
-
-  <section>
-    <h2>Asmeninis padėjėjas (Gmail) · Personal assistant (Gmail)</h2>
-    <p>Asmeninis įrankis, kurį naudoja tik šio puslapio savininkas. Jis padeda peržiūrėti
-       savininko Gmail laiškus ir paruošti laiškų juodraščius. Įrankis laiškų nesiunčia –
-       juos siunčia pats savininkas iš Gmail.</p>
-    <p class="en">A personal tool used only by the owner of this site. It helps the owner
-       review their own Gmail messages and prepare email drafts. The tool never sends email –
-       the owner sends drafts manually from Gmail.</p>
-    <p><a href="privacy.html">Privatumo politika · Privacy policy</a></p>
-  </section>
-
-  <footer>© 2026 vilvin.lt</footer>
+  <p>Puslapis kuriamas.</p>
+  <p class="en">Website under construction.</p>
 </main>
+<footer><a href="privacy.html">Privatumas · Privacy</a></footer>
 </body>
 </html>
