@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · vilvin.lt</title>
+<meta name="description" content="Privacy policy of the personal Gmail assistant on vilvin.lt.">
+<style>
+  /* Spalvos: šviesi ir tamsi tema pagal įrenginio nustatymą */
+  :root { --bg:#fbfaf7; --fg:#1d1d1b; --muted:#6b6a65; --line:#e4e1d8; --accent:#1f5f8b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141413; --fg:#ecebe6; --muted:#a3a19a; --line:#2e2d2a; --accent:#7fb6dd; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px 40px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; letter-spacing:-0.01em; }
+  .sub { color:var(--muted); margin:0 0 32px; }
+  h2 { font-size:1.1rem; margin:28px 0 8px; }
+  p, li { margin:0 0 10px; }
+  ul { padding-left:20px; }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0 32px; }
+  a { color:var(--accent); }
+  .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <p class="muted"><a href="index.html">vilvin.lt</a> · <a href="#lt">Lietuviškai ↓</a></p>
+
+  <h1>Privacy policy</h1>
+  <p class="sub">Personal assistant (Gmail) · Last updated: 2026-10-17</p>
+
+  <h2>Who</h2>
+  <p>This policy covers “Personal assistant (Gmail)”, a personal tool operated by Vincas Serva.
+     It is used only by its owner and is not offered to anyone else.</p>
+
+  <h2>What data the tool accesses</h2>
+  <p>With the owner’s consent through Google sign-in, the tool can:</p>
+  <ul>
+    <li>list and read messages in the owner’s Gmail mailbox;</li>
+    <li>create drafts in the owner’s Gmail mailbox.</li>
+  </ul>
+  <p>The Google permission granted is “gmail.modify”, which is broader than the tool needs.
+     The tool’s code uses it only to read messages and create drafts: it has no function to send
+     or delete email. The owner sends drafts manually from Gmail.</p>
+
+  <h2>How the data is used</h2>
+  <p>The tool runs on the owner’s computer and works only when the owner asks. To summarise a
+     message or prepare a draft, message content may be passed to the owner’s AI assistant
+     (Claude, by Anthropic), and replies may be delivered to the owner’s private Telegram chat.
+     Messages that look like security codes or bank notices are hidden by default.</p>
+
+  <h2>Storage</h2>
+  <ul>
+    <li>The Google refresh token (used to obtain access) is stored only on the owner’s computer,
+        encrypted with Windows DPAPI.</li>
+    <li>A local log keeps only the action, the message ID and the result code – no message content.</li>
+    <li>There is no server or database run by this site.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Data is not sold, not used for advertising and not shared with anyone except the services
+     named above, which the owner uses.</p>
+
+  <h2>Revoking access</h2>
+  <p>Access can be revoked at any time at
+     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+     Deleting the local token file removes the stored copy of the refresh token.</p>
+
+  <hr id="lt">
+
+  <h1 lang="lt">Privatumo politika</h1>
+  <p class="sub" lang="lt">Asmeninis padėjėjas (Gmail) · Atnaujinta: 2026-10-17</p>
+
+  <div lang="lt">
+    <h2>Kas</h2>
+    <p>Ši politika taikoma „Asmeniniam padėjėjui (Gmail)“ – asmeniniam įrankiui, kurį valdo
+       Vincas Serva. Juo naudojasi tik savininkas, kitiems jis nesiūlomas.</p>
+
+    <h2>Kokius duomenis įrankis mato</h2>
+    <p>Savininkui sutikus per Google prisijungimą, įrankis gali:</p>
+    <ul>
+      <li>matyti savininko Gmail laiškų sąrašą ir skaityti laiškus;</li>
+      <li>kurti juodraščius savininko Gmail dėžutėje.</li>
+    </ul>
+    <p>Google suteikia leidimą „gmail.modify“, kuris platesnis, nei įrankiui reikia. Įrankio kodas
+       jį naudoja tik laiškams skaityti ir juodraščiams kurti: funkcijos laiškams siųsti ar trinti
+       jame nėra. Juodraščius siunčia pats savininkas iš Gmail.</p>
+
+    <h2>Kaip duomenys naudojami</h2>
+    <p>Įrankis veikia savininko kompiuteryje ir tik savininkui paprašius. Norint apibendrinti
+       laišką ar paruošti juodraštį, laiško turinys gali būti perduotas savininko DI asistentui
+       (Claude, Anthropic), o atsakymai – į privatų savininko Telegram pokalbį.
+       Laiškai, panašūs į saugumo kodus ar banko pranešimus, pagal nutylėjimą nerodomi.</p>
+
+    <h2>Saugojimas</h2>
+    <ul>
+      <li>Google prieigos atnaujinimo raktas (refresh token) saugomas tik savininko kompiuteryje,
+          užšifruotas Windows DPAPI.</li>
+      <li>Vietiniame žurnale saugomas tik veiksmas, laiško ID ir rezultato kodas – be laiškų turinio.</li>
+      <li>Šis puslapis neturi jokio serverio ar duomenų bazės.</li>
+    </ul>
+
+    <h2>Dalijimasis</h2>
+    <p>Duomenys neparduodami, nenaudojami reklamai ir neperduodami niekam, išskyrus aukščiau
+       nurodytas paslaugas, kuriomis naudojasi savininkas.</p>
+
+    <h2>Prieigos atšaukimas</h2>
+    <p>Prieigą bet kada galima atšaukti
+       <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+       Ištrynus vietinį rakto failą, išsaugota rakto kopija panaikinama.</p>
+  </div>
+</main>
+</body>
+</html>
